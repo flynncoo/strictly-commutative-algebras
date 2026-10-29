@@ -1,0 +1,17 @@
+\documentclass{amsart}
+\usepackage[english]{babel}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{microtype}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\from}{\colon}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\begin{document}
+\section{Counterexample compile check}
+\begin{theorem}\label{mycounterexample}
+There are commutative dg-algebras over $\mathbb F_2$ which are
+quasi-isomorphic as associative dg-algebras but not as commutative dg-algebras.
+\end{theorem}
+\input{counterexample-insert.tex}
+\end{document}

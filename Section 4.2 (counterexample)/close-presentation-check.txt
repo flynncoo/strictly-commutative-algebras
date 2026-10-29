@@ -1,0 +1,79 @@
+WORD LENGTH 1
+2: x, y
+rank d = 0
+DIFFERENTIALS
+NONZERO VALUES OF g
+x -> [(1, 0, 0, 0)]
+y -> [(0, 1, 0, 0)]
+
+WORD LENGTH 2
+3: t
+rank d = 1
+4: x^2, xy, y^2
+rank d = 0
+DIFFERENTIALS
+d(t) = xy
+NONZERO VALUES OF g
+t -> [(0, 0, 1, 0)]
+x^2 -> [(2, 0, 0, 0)]
+xy -> [(1, 1, 0, 0)]
+y^2 -> [(0, 2, 0, 0)]
+
+WORD LENGTH 3
+4: x\cup_1 t, y\cup_1 t, T, S
+rank d = 4
+5: x\cup t, t\cup x, y\cup t, t\cup y, x\cup_1(xy), y\cup_1(xy)
+rank d = 2
+6: x^2y, xy^2
+rank d = 0
+DIFFERENTIALS
+d(x\cup_1 t) = x\cup t + t\cup x + x\cup_1(xy)
+d(y\cup_1 t) = y\cup t + t\cup y + y\cup_1(xy)
+d(T) = y\cup_1(xy)
+d(S) = x\cup_1(xy)
+d(x\cup t) = x^2y
+d(t\cup x) = x^2y
+d(y\cup t) = xy^2
+d(t\cup y) = xy^2
+NONZERO VALUES OF g
+T -> [(0, 0, 0, 1)]
+x\cup t -> [(1, 0, 1, 0)]
+t\cup x -> [(1, 0, 1, 0)]
+y\cup t -> [(0, 1, 1, 0)]
+t\cup y -> [(0, 1, 1, 0)]
+x^2y -> [(2, 1, 0, 0)]
+xy^2 -> [(1, 2, 0, 0)]
+
+WORD LENGTH 4
+5: t\cup_1t, y\cup_1(t\cup_1x)
+rank d = 2
+6: x\cup T, T\cup x, S\cup y, (x\cup_1t)\cup y, (y\cup_1t)\cup x, x\cup(y\cup_1t), t\cup_1(xy), y\cup_1(xt), x\cup_1(yt)
+rank d = 7
+7: xy\cup t, t\cup xy, x\cup t\cup y, y\cup t\cup x, x\cup(y\cup_1xy), (x\cup_1xy)\cup y, y\cup_1(x^2y), x\cup_1(xy^2)
+rank d = 1
+8: x^2y^2
+rank d = 0
+DIFFERENTIALS
+d(t\cup_1t) = (x\cup_1t)\cup y + x\cup(y\cup_1t) + t\cup_1(xy)
+d(y\cup_1(t\cup_1x)) = x\cup T + T\cup x
+d(x\cup T) = x\cup(y\cup_1xy)
+d(T\cup x) = x\cup(y\cup_1xy)
+d(S\cup y) = (x\cup_1xy)\cup y
+d((x\cup_1t)\cup y) = t\cup xy + x\cup t\cup y + (x\cup_1xy)\cup y
+d((y\cup_1t)\cup x) = t\cup xy + y\cup t\cup x + x\cup(y\cup_1xy)
+d(x\cup(y\cup_1t)) = xy\cup t + x\cup t\cup y + x\cup(y\cup_1xy)
+d(t\cup_1(xy)) = xy\cup t + t\cup xy + x\cup(y\cup_1xy) + (x\cup_1xy)\cup y
+d(y\cup_1(xt)) = xy\cup t + x\cup t\cup y + y\cup_1(x^2y)
+d(x\cup_1(yt)) = xy\cup t + y\cup t\cup x + x\cup_1(xy^2)
+d(xy\cup t) = x^2y^2
+d(t\cup xy) = x^2y^2
+d(x\cup t\cup y) = x^2y^2
+d(y\cup t\cup x) = x^2y^2
+NONZERO VALUES OF g
+x\cup T -> [(1, 0, 0, 1)]
+T\cup x -> [(1, 0, 0, 1)]
+xy\cup t -> [(1, 1, 1, 0)]
+t\cup xy -> [(1, 1, 1, 0)]
+x\cup t\cup y -> [(1, 1, 1, 0)]
+y\cup t\cup x -> [(1, 1, 1, 0)]
+x^2y^2 -> [(2, 2, 0, 0)]

@@ -1,0 +1,74 @@
+{
+  "field": "F_2",
+  "convention": "nonunital",
+  "free_binary_expressions": 362,
+  "relation_rank": 322,
+  "dimension_C": 40,
+  "dimension_A": 6,
+  "dimension_B": 14,
+  "columns": [
+    "degree",
+    "dim C",
+    "rank d",
+    "dim H"
+  ],
+  "table": [
+    [
+      2,
+      2,
+      0,
+      2
+    ],
+    [
+      3,
+      1,
+      1,
+      0
+    ],
+    [
+      4,
+      8,
+      4,
+      3
+    ],
+    [
+      5,
+      8,
+      4,
+      0
+    ],
+    [
+      6,
+      12,
+      7,
+      1
+    ],
+    [
+      7,
+      8,
+      1,
+      0
+    ],
+    [
+      8,
+      1,
+      0,
+      0
+    ]
+  ],
+  "positive_cohomology_representatives": [
+    "x",
+    "y",
+    "x^2",
+    "y^2",
+    "z",
+    "xz"
+  ],
+  "checks": "differential ideal, d^2, endpoint axioms, all relations, chain maps, and cohomology isomorphisms passed",
+  "explicit_endpoint_ideals": "passed",
+  "all_four_manuscript_tables": "passed",
+  "dense_differential_rank_cross_check": "passed",
+  "manuscript_map_assignments": "passed",
+  "frobenius_values_and_zero_denominator": "passed",
+  "result": "ALL CHECKS PASSED"
+}
